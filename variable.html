@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- var let const -->
+
+  <script>
+    //var keyword
+// functional scoped
+//     var a = 30;
+//     var b = 55;
+// var b=80;
+//     if (a < b) {
+//       var a = 70;
+//       document.write(a);//70
+//       document.write(b);//55
+//     }
+//     document.write(a);//70
+//     document.write(b);//55
+
+    //let keyword
+    // blocked scoped
+    // let a = 30;
+    // let b = 55;
+    // // let b=60; error
+
+    // if (a < b) {
+    //   let a = 70;
+    //   document.write(a);//70
+    //   document.write(b);//55
+    // }
+    // document.write(a);//30
+    // document.write(b);//55
+
+    // const keyword
+    const a=20;
+    const b=40;
+    if(a<b){
+      const a=50;
+      document.write(a)//50
+      document.write(b)//40
+    }
+    document.write(a)//20
+      document.write(b)//40
+
+  </script>
+</body>
+
+</html>
