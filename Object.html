@@ -18,16 +18,27 @@
       email: "suprava@gmail.com",
       age: 26,
       hobbies: ["dancing", "singing", "crafting"],
-      fullName: function () {
-        console.log(this)
-        return this.fname;
+      // fullName: function () {
+      //   // console.log(this)
+      //   return this.fname;
+      // }
+
+      fullName: () => {
+        return obj.fname;
+      },
+
+      address:{
+        city:"bbsr",
+        state:"odisha",
       }
+
     }
     // document.write(obj)
     // document.write("fname:"+obj.fname+" "+obj.lname);
     // console.log(obj)
-    // document.write(obj.hobbies)
+    // document.write(obj.hobbies[1])
     document.write(obj.fullName())
+    document.write(obj.address.state)
 
 
 
